@@ -67,4 +67,6 @@ esac
 
 echo ""
 echo "本窗口可关闭。按 Enter 键退出。"
+echo ""
+echo "━━━ 已备份至 GitHub: macmini0129-byte/tui-panel ━━━"
 read -r
