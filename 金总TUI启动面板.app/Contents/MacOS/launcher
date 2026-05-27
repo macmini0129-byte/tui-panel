@@ -1,0 +1,8 @@
+#!/bin/bash
+# 金总 TUI 启动面板 v2.0 — .app 入口
+cd /Users/qclaw || exit
+
+/usr/bin/osascript \
+  -e 'tell application "Terminal" to activate' \
+  -e 'delay 0.3' \
+  -e 'tell application "Terminal" to do script "bash /Users/qclaw/.hermes/tui_panel_menu.sh"'
